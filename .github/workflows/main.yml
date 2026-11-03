@@ -1,5 +1,11 @@
 name: Build Float Tracker APK
 
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latestname: Build Float Tracker APK
+
 on:
   workflow_dispatch:
   push:
